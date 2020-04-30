@@ -1,0 +1,125 @@
+body{
+  background-color: #E5E5E5;
+  height: 100vh;
+  margin: auto;
+  font-family: 'Trebuchet MS';
+}
+
+img{
+    max-width: 100%;
+    width: 58px;
+    height: 58px;
+    padding-top: 10px;
+}
+#main-container{
+    max-width: 100%;
+    background-color:  #F6704B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location_container{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    background-color: #620808;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.location-text{
+    color:#FFE9C1;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.music_container{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    background-color:  #A53F3F;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.music-text{
+    color:#F4CE74;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.note_container{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    background-color:  #F4CE74;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.note-text{
+    color:#620808;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+.content_text{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    background-color:  #F4CE74;
+    color: #620808;
+    font-size: 18px;
+    font-family: JF Flat;
+    margin: 20px;
+
+}
+
+#content_container{
+    background-color:  #F4CE74;
+    box-shadow: inset 0px 0px 6px rgba(0, 0, 0, 0.45);
+    width: 300px;
+   padding:0.5px;
+   cursor: pointer;
+  
+    /* height: 100px; */
+}
+
+.book_container{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    background-color:   #FFE9C1;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.book-text{
+    color: #620808;
+    font-size: 24px;
+    padding-left: 24px;
+    font-family: Flat;
+}
+.tendances_container{
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    background-color:    #D5441C;
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.tendances-text{
+    color: #FFE9C1;
+    font-size: 24px;
+    padding-left: 24px;
+}
+
+
