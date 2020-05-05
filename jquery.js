@@ -1,18 +1,12 @@
 
 // You should create a page with the accordion using jQuery. You should use CSS to style all the things and using jQuery write logic that will open/hide content below each section (Location, Music, Notes, Books, Tendances)  when clicking on the section title
 
-$('.location_container').on('click', () =>{
-    // $('.location-text').slideToggle();
-    $('.content_text').slideToggle();
+$('.location_container').on('click', function() {
+    $(this).next().slideToggle();
 });
 
-$('#content_container').on('click', () => {
-   
-});
-
-$('.music_container').on('click', () => {
-    // $('.music-text').slideToggle();
-    $('.content_text').slideToggle();
+$('.music_container').on('click', function() {
+    $(this).next().slideToggle();
 });
 
 $('.note_container').on('click', () => {
@@ -24,14 +18,12 @@ $('.content_container').on('click', () => {
     // $('.content-text').slideToggle();
 });
 
-$('.book_container').on('click', () => {
-    // $('.book-text').slideToggle();
-    $('.content_text').slideToggle();
+$('.book_container').on('click', function() {
+    $(this).next().slideToggle();
 });
 
-$('.tendances_container').on('click', ()=>{
-    // $('.tendances-text').slideToggle();
-    $('.content_text').slideToggle();
+$('.tendances_container').on('click', function() {
+    $(this).next().slideToggle();
 });
 
 // let listItem = document.getElementByTagname ('li');
